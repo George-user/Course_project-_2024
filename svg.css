@@ -1,0 +1,32 @@
+svg {
+    width: 1080px;
+    height: 720px;
+    
+  }
+
+  image {
+    transition: transform 0.5s ease;
+  }
+
+  image:hover {
+    transform: scale(1.2);
+  }
+
+  .button {
+    fill: #00e5b0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  
+  .button1 {
+    fill:#fff
+  }
+  .button1:hover {
+    fill:#ffffffbf
+  }
+  .posit {
+    margin-left: 40%;
+    font-size: 60px;
+  }

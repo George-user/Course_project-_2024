@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+ 
+    <link href="styles.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js" defer></script>
+    <script src="fetch.js" defer></script>
+   
+   
+    <script src="https://kit.fontawesome.com/3318035e44.js"></script>
+    <link rel="icon" href="img1/beliner.png" type="image/png" />
+    <title>Beliner.by</title>
+  </head>
+  <body onload="displayProducts()">
+    <!-- Navbar -->
+    <nav class="nav-container">
+      <!-- Website nav-menu -->
+      <ul class="nav-web">
+        <li>
+          <a href="index.html" id="logo" title="Home"
+            ><img src="img1/beliner.png" alt="logo"
+          /></a>
+        </li>
+        <li><a href="products1.html">Товары</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Пункт выдачи</a></li>
+        <li><a href="#">Контакты </a></li>
+        
+     
+      </ul>
+      <!-- Mobile nav-menu -->
+      <div class="nav-mobile">
+        <a href="index.html" id="logo" title="Home"
+          ><img src="img1/beliner.png" alt="logo"
+        /></a>
+        <div id="myLinks">
+        <a href="products.html">Товары</a>
+        <li><a href="#">Новости</a></li>
+         <li><a href="#">Пункт выдачи</a></li>
+         <li><a href="#">Контакты </a></li>
+
+         
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <div>
+      
+
+
+      <div class="container">
+        <img src="img1/kuler1.jpeg" alt="Изображение" class="image">
+        <div class="info">
+          <h2>Видеокарта Sapphire Pulse Radeon RX 7900 GRE 16GB 11325-04-20G</h2>
+          <p>Видеокарта Sapphire Pulse Radeon RX 7900 GRE 16GB 11325-04-20G - идеальный выбор для игр в 4K с трассировкой лучей.
+             С 5120 потоковыми процессорами и трассировкой лучей, эта видеокарта обеспечит потрясающую графику и плавный геймплей.
+             С поддержкой DirectX 12 Ultimate и 16 ГБ видеопамяти, она готова к запуску самых требовательных игр и приложений.</p>
+        </div>
+    </div>
+
+
+
+     
+       
+<table id="salesTable">
+    <caption>Данные о продажах и покупках</caption>
+    
+  <thead>
+    
+    <tr>
+      <th></th>
+      <th>Дата</th>
+      <th>Товар</th>
+      <th>Цена</th>
+      <th>Количество</th>
+      <th>Сумма</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Данные будут добавлены с помощью JavaScript -->
+  </tbody>
+</table>
+  
+    <!-- Footer -->
+    <footer>
+      <div class="footer-menu">
+        <nav class="footer-nav-column">
+          <ul class="footer-nav-container">
+            <li class="li-title">Магазин</li>
+            <li><a href="#">Видеокарта</a></li>
+            <li><a href="#">Материнская плата</a></li>
+            <li><a href="#">Оперативная память</a></li>
+            <li><a href="#">Кулер</a></li>
+            <li><a href="#">Жесткий диск</a></li>
+            <li><a href="#">Процессор</a></li>
+            <li><a href="#">Блок питания</a></li>
+            <li><a href="#">Звуковая карта</a></li>
+            <li><a href="#">Дискета</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav-column">
+          <ul class="footer-nav-container">
+            <li class="li-title">Инфоaрмация  о компании</li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Наш магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Карьера</a></li>
+            
+          </ul>
+        </nav>
+        <nav class="footer-nav-column">
+          <ul class="footer-nav-container">
+            <li class="li-title">Информация о магазине</li>
+            <li><a href="#">Центр помощи</a></li>
+            <li><a href="#">Счет</a></li>
+            
+            <li><a href="#">Политика возврата</a></li>
+            <li><a href="#">Конфиденциальность и безопасность</a></li>
+            <li><a href="#">Условия использования</a></li>
+          
+          </ul>
+        </nav>
+        <nav class="footer-nav-column subscribe">
+          <ul class="footer-nav-container">
+            <li class="li-title">Подпишись</li>
+            <p>
+              Возьмите скидку на 5%, когда вы зарегистрируетесь в нашей рассылке.
+            </p>
+            <span class="email"
+              ><input
+                type="email"
+                id="subscribe-input"
+                name="email"
+                placeholder="Email"
+              /><button id="subscribe-btn">Subscribe</button></span
+            >
+          </ul>
+        </nav>
+      </div>
+      <!-- Social media -->
+      <div class="social-media">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><i class="fab fa-youtube-square"></i
+        ></a>
+        <a href="https://www.pinterest.com/" target="_blank"
+          ><i class="fab fa-pinterest-square"></i
+        ></a>
+      </div>
+      <div class="lang-pay">
+        <!-- Language -->
+        <div class="language">
+          <i class="fa-solid fa-globe" title="Choose language"></i>
+        </div>
+        <!-- Paying methods -->
+        <div class="paying-methods">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-cc-paypal"></i>
+          <i class="fa-brands fa-cc-apple-pay"></i>
+         
+        </div>
+      </div>
+      <p class="copyright">Copyright &copy; 2024 | Bogatirov Georgiy</p>
+    </footer>
+
+  </body>
+</html>

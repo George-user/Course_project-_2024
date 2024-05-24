@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .image {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+  }
+
+  .info {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 420px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+    h2 {
+        color: #f2f2f2;   
+    }
+    p {
+        color: #f2f2f2;  
+        margin-top: 30px;
+    }
+    caption {
+        margin-bottom: 30px;
+        color: #f2f2f2;
+        font-size: 30px;
+        
+      }
+
+  th, td {
+    border: 1px solid #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    
+   
+  }
+  td {
+    color:white;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+
+}

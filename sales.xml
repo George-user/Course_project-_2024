@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sales>
+  <sale>
+    <id>1</id>
+    <date>2024-05-13</date>
+    <product>GeForce RTX 4060 Dual OC NE64060T19P1-1070D</product>
+    <price>1000</price>
+    <quantity>2</quantity>
+    
+   
+  </sale>
+  <sale>
+    <id>2</id>
+    <date>2024-05-14</date>
+    <product> Palit GeForce RTX 4070 Super Dual OC 12GB NED407SS19K9-1043D</product>
+    <price>500</price>
+    <quantity>1</quantity>
+   
+    
+  </sale>
+  <sale>
+    <id>3</id>
+    <date>2024-05-15</date>
+    <product> Palit GeForce RTX 3060 Dual 12GB GDDR6 NE63060019K9-190AD</product>
+    <price>1045</price>
+    <quantity>24</quantity>
+    
+    
+  </sale>
+
+<sale>
+  <id>4</id>
+  <date>2024-04-12</date>
+  <product> Sapphire Pulse Radeon RX 7900 GRE 16GB 11325-04-20G</product>
+  <price>1045</price>
+  <quantity>68</quantity>
+  
+</sale>
+
+<sale>
+  <id>5</id>
+  <date>2024-07-25</date>
+  <product>Pulse Radeon RX 7900</product>
+  <price>2499</price>
+  <quantity>31</quantity>
+ 
+  
+</sale>
+
+<sale>
+  <id>6</id>
+  <date>2024-03-09</date>
+  <product>AMD Ryzen 5 5600</product>
+  <price>300</price>
+  <quantity>12</quantity>
+  
+  
+</sale>
+
+<sale>
+  <id>7</id>
+  <date>2024-09-28</date>
+  <product>AMD Ryzen 5 7500F</product>
+  <price>372</price>
+  <quantity>108</quantity>
+ 
+  
+</sale>
+
+<sale>
+  <id>8</id>
+  <date>2024-05-15</date>
+  <product>Asus TUF Gaming B550M-Plus</product>
+  <price>598</price>
+  <quantity>49</quantity>
+  
+  
+</sale>
+<sale>
+  <id>9</id>
+  <date>2024-05-15</date>
+  <product> AeroCool Verkho A-3P</product>
+  <price>899</price>
+  <quantity>54</quantity>
+ 
+
+</sale>
+</sales>
